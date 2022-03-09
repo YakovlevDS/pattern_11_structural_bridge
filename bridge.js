@@ -44,5 +44,7 @@ class Bmw extends Model {
 		return `Auto: Bmw, Color: ${this.color.get()}`;
 	}
 };
+const blackBmw=new Bmw(new BlackColor())
+console.log(blackBmw.paint());
 
 
